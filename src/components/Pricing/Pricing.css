@@ -1,0 +1,168 @@
+.Pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.pricing-h1{
+    position: relative;
+    font-size: 70px;
+}
+.Pricing-p{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.pricing-h1::after {
+    content: "";
+    background-image: url(/images/Vector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 225px;
+    top: 60px;
+    transform: none;
+    width: 404px;
+    height: 45px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.pricing-cont-left{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #FFE492;
+}
+
+.pricing-cont-center{
+    width: 550px;
+    height: 800px;
+    background-color: #043873;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFF;
+    border: none;
+}
+
+.pricing-cont-right{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #FFE492;
+}
+
+
+.pricing-cont-center h1{
+    color: #FFE492;
+
+}
+
+
+.pricing-cont-left h4{
+    position: relative;
+    margin-left: 20px;
+}
+.pricing-cont-right h4{
+    position: relative;
+    margin-left: 20px;
+}
+.pricing-cont-center h4{
+    position: relative;
+    margin-left: 20px;
+    
+}
+
+.pricing-cont-left h4::after {
+    content: "";
+    background-image: url(/images/Icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: -27px;
+    top: auto;
+    transform: none;
+    width: 84px;
+    height: 20px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.pricing-cont-right h4::after {
+    content: "";
+    background-image: url(/images/Icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: -27px;
+    top: auto;
+    transform: none;
+    width: 84px;
+    height: 20px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.pricing-cont-center h4::after{
+        content: "";
+    background-image: url(/images/GIcon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: -33px;
+    top: -4px;
+    transform: none;
+    width: 94px;
+    height: 25px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.Pricing-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Pricing-container div{
+    
+    border-radius: 10px;
+    padding: 55px;
+}
+
+.Pricing-container div h1{
+    font-size: 50px;
+}
+.Pricing-container div h4{
+    font-size: 15px;
+}
+
+.pricing-cont-center button{
+    background-color: #4F9CF9;
+    color:#FFFFFF;
+
+}
+
+.pricing-free{
+    background-color: #FFFF;
+    font-weight: 600;
+    width: 40%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    padding-right: 25px;
+    border: 3px solid #FFE492;
+    
+}
+
+.pricing-cont-center button{
+    border: none;
+}

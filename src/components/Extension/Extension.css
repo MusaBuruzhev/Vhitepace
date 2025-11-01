@@ -1,0 +1,87 @@
+.extension {
+    background-color: #043873;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+
+.extension-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.extension-brend{
+    min-width: 824px;
+    min-height: 580px;
+    background-color: #c4defd
+}
+
+.extension-content{
+     color: #FFFF;
+    min-height: 549px;
+    
+}
+
+.extension-content h1{
+    font-size: 80px;
+    width: 650px;
+    margin-top: 65px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.extension-content h1::after {
+    content: "";
+    background-image: url(/images/Vector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 274px;
+    top: 73px;
+    transform: none;
+    width: 360px;
+    height: 40px;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+.extension-content p{
+    max-width: 900px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.extension-content button{
+    margin-top: 40px;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.extension-free{
+    background-color: #4F9CF9;
+    color:#FFFFFF;
+    font-weight: 600;
+    
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.extension-free::after {
+  content: "→";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}

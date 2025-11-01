@@ -1,0 +1,138 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #043873;
+    margin-top: 100px;
+    color: #FFFF;
+}
+.footer-cont{
+    width: 80%;
+}
+.footer-top {
+    display: flex
+;
+    /* text-align: center; */
+    text-align: center;
+    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-top h1 {
+       font-size: 50px;
+    width: 358px;
+}
+
+.footer-top p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.footer-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-try {
+    background: #4F9CF9;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.footer-contact {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.footer-divider {
+    width: 80%;
+    height: 1px;
+    background: #ddd;
+    margin: 0 auto;
+}
+
+.footer-middle {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    width: 70%;
+}
+
+.footer-brand {
+    width: 30%;
+    margin-right: 40px;
+}
+
+.footer-brand h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-columns {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.footer-col h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-col p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-today {
+    width: 25%;
+}
+
+.footer-today h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-today p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footer-start {
+    background: #4F9CF9;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    width: 80%;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 20px;
+}
+
+.footer-bottom-left span {
+    margin-right: 20px;
+}
+
+.footer-bottom-right span {
+    margin-left: 20px;
+}
